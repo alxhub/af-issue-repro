@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "target": "es5",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "tmp",
+    "types": [
+      "node"
+    ]
+  },
+  "files": [
+    "src/module.ts",
+    "src/main.ts",
+    "rollup.ts"
+  ],
+  "angularCompilerOptions": {
+    "genDir": "ngfactory"
+  }
+}
